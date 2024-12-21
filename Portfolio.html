@@ -2,10 +2,38 @@
 <html>
   <head>
     <title>Anuj Kumar Portfolio</title>
+    <style>
+      .container {
+        display: flex;
+        gap: 10px; /* Adds space between Name and Last Name fields */
+        margin-bottom: 10px; /* Adds space below the row */
+      }
+
+      .input-field {
+        width: 100px;
+      }
+
+      .idk-field {
+        width: 220px; /* Adjust width as needed */
+        display: block;
+      }
+      .button {
+        width: 220px;
+        height: 30px;
+      }
+    </style>
   </head>
 
   <body>
-    <p>Hey, this is anuj kumar</p>
-    ``
+    <div class="container">
+      <input class="input-field name" type="text" placeholder="First name" />
+      <input
+        class="input-field last-name"
+        type="text"
+        placeholder="Last name"
+      />
+    </div>
+    <input class="idk-field" type="text" placeholder="Email" />
+    <button class="button">Sign In</button>
   </body>
 </html>
