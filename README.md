@@ -27,13 +27,9 @@ cd Portfolio
 
 Install dependencies
 npm install
-# or
-yarn install
-# or
-pnpm install
-
-Run the development server
-npm run dev
+### OR
+pnpm install     # Install dependencies  
+pnpm dev         # Start the development server
 
 Open in browser
 http://localhost:3000
